@@ -1,5 +1,5 @@
-import Image from "next/image";
 import { Button } from "@/app/components/ui/button";
+import { FaBeer } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
             <div className="mt-8 flex justify-center">
               <div className="inline-flex rounded-md shadow"></div>
               <div className="flex gap-3">
-                <Button>asd</Button>
+                <Button icon={ <FaBeer/> }>asd</Button>
                 <Button>Get started</Button>
               </div>
             </div>
