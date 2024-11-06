@@ -23,7 +23,7 @@ export const LoginForm = () => {
   } = useForm({ resolver: yupResolver(validationSchema) });
   const onSubmit = (data: any) => {
     console.log('FormSubmitted: ', data);
-    router.replace('/app')
+    router.replace('/app/users')
   };
 
   return (

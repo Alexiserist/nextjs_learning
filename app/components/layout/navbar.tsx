@@ -8,7 +8,7 @@ type NavbarProp = {
 
 export default function Navbar({ toggleSidebar }: NavbarProp) {
   return (
-    <header className="bg-gray-900 w-screen h-[5rem]">
+    <header className="bg-gray-900 w-screen h-[5rem] fixed">
       <div className="h-full w-full flex items-center">
         <div className="mr-auto">
           <FaBars

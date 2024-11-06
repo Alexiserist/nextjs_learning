@@ -1,10 +1,23 @@
-import DashboardPage from "../page";
 
 export const Userpage = () => {
     return (
-        <DashboardPage>
-            <div className="text-black text-4xl">asdasd</div>
-        </DashboardPage>
+        <div>
+            <div className="text-black text-4xl">routing to child page</div>
+            <div className="text-black text-4xl">routing to child page</div>
+            <div className="text-black text-4xl">routing to child page</div>
+            <div className="text-black text-4xl">routing to child page</div>
+            <div className="text-black text-4xl">routing to child page</div>
+            <div className="text-black text-4xl">routing to child page</div>
+            <div className="text-black text-4xl">routing to child page</div>
+            <div className="text-black text-4xl">routing to child page</div>
+            <div className="text-black text-4xl">routing to child page</div>
+            <div className="text-black text-4xl">routing to child page</div>
+            <div className="text-black text-4xl">routing to child page</div>
+            <div className="text-black text-4xl">routing to child page</div>
+            <div className="text-black text-4xl">routing to child page</div>
+            <div className="text-black text-4xl">routing to child page</div>
+            <div className="text-black text-4xl">routing to child page</div>
+        </div>
     )
 }
 
